@@ -1,0 +1,230 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-box button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+} */
+
+
+
+
+
+
+/*  ya wali ha  */
+
+.search-input {
+    display: none;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hide the original arrow icon */
+.dropdown-toggle::after {
+    display: none;
+}
+
+.searing {
+    justify-content: space-between;
+}
+
+ul li {
+    margin-right: 30px;
+    padding: 20px;
+}
+
+#logoo {
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    width: 200px;
+    margin-right: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+
+}
+
+.banner-wrapper {
+    background: url(../main/bg2.6013f087.svg) left top / 100% 596px no-repeat;
+    background-size: 100%;
+}
+
+/*  ya file ka defult text ko remove karna ka lea */
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    /* border: 1px solid #ccc; */
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* yaha tek */
+.flex-col {
+    flex-direction: column;
+}
+
+/* .advantages-list>div:nth-child(1)>div */
+#child1 {
+    background: url(../main/quick-hover.76e1df1b.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 80px; */
+}
+
+
+/* .advantages-list>div:nth-child(3)>div  */
+
+#child2 {
+    background: url(../main/lol2.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#child3 {
+    background: url(../main/lol3.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#child4 {
+    background: url(../main/lol4.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    fill: blue;
+}
+
+#child5 {
+    background: url(../main/lol5.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#child6 {
+    background: url(../main/lol6.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.group {
+    text-align: center;
+    max-width: 372px;
+    height: 184px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    padding:
+        16px;
+    margin-bottom: 42px;
+    transition: all 1s;
+
+}
+
+.advantages-list> :hover.group {
+    border: 2px solid green;
+    transition-duration: 2s;
+}
+
+
+
+
+.group:hover #child1,
+.group:hover #child2,
+.group:hover #child3,
+.group:hover #child4,
+.group:hover #child5,
+.group:hover #child6 {
+    /* Apply styles to the image inside #child1 when .group is hovered */
+    /* filter: grayscale(100%); */
+    filter: hue-rotate(240deg);
+    /* Rotate hue to blue */
+
+    /* filter: grayscale(100%) sepia(100%) hue-rotate(240deg); Convert to blue */
+    /* Change the color or apply any other styles you want */
+}

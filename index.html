@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Navigation Bar with Search Icon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style01.css">
+</head>
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="logoo">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse searing" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            aria-expanded="false">
+                            Dropdown1
+                        </a>
+                        <ul class="dropdown-menu back" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            aria-expanded="false">
+                            Dropdown3
+                        </a>
+                        <ul class="dropdown-menu back" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            aria-expanded="false">
+                            Dropdown2
+                        </a>
+                        <ul class="dropdown-menu back" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu back" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search"
+                            style="display: none;" />
+                        <button class="btn btn-outline-success" type="button" id="search-icon">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <!-- <form class="d-flex">
+                    <div class="input-group">
+                        <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search" style="display: none;">
+                        <button class="btn btn-outline-success search-btn" type="button" id="search-icon">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="btn btn-outline-danger close-btn" type="button" style="display: none;">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </form> -->
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Free Online PDF to Word Converter -->
+
+    <div class="banner-wrapper text-center pt-4 md-pt-12">
+        <h1 class="display-4  mt-5">Free Online PDF to Word Converter</h1>
+        <p class="h-auto font-normal fs-5 mx-3 mx-md-0 fs-md-3 lh-lg text-secondary mb-3 mb-md-4">
+            Convert PDF to Editable Word Documents in High Quality
+
+        </p>
+        <div class="position-relative z-3 max-w-1200 mx-3 ms-md-0">
+
+
+            <div class="bg- shadow-lg filer ">
+
+                <label for="file-upload" class="custom-file-upload">
+                    <input id="file-upload" type="file" />
+                    <div class="bg-pdf-icon"></div>
+                </label>
+
+
+                <div class="Upload btn btn-primary cursor-pointer px-4    m-3" data-trackevent="upload">
+
+                    <label for="file-upload" class="custom-file-upload">
+                        <input id="file-upload" type="file" />
+                        Select Files
+                    </label>
+
+                </div>
+                <p class="hidden md:block h-22 font-normal fs-5 lh-lg text-[rgba(34,42,65,0.7)]">
+                    <label for="file-upload" class="custom-file-upload">
+                        <input id="file-upload" type="file" />
+                        or drop files here
+                    </label>
+
+                </p>
+                <!-- <input class="z-[0] Upload absolute w-[100%] h-[100%] left-0 top-0 opacity-0 cursor-pointer" type="file" multiple="" accept=".pdf" title="" id="upload" data-v-aa7c8b57=""> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- this contenct Speedy -->
+
+
+    <div class="container  ">
+        <div class="row ">
+            <div class="advantages-list justify-center mt-5 col-md-4">
+                <div class="group ">
+                    <div style="width: 40px; height: 40px;" id="child1"></div>
+                    <strong
+                        style="height: 27px; margin: 12px 0 6px; font-size: 20px; color: #2d2d33; font-weight: bold; line-height: 27px; text-align: center;">
+                        Speedy
+                    </strong>
+                    <p
+                        style="font-size: 16px; color: #2d2d33; opacity: 0.7; line-height: 22px; letter-spacing: 0.02em;">
+                        Convert your PDF to Word online in just a few seconds, and easily modify text and images within
+                        your new Word document.
+                    </p>
+                </div>
+            </div>
+            <div class="advantages-list justify-center mt-5 col-md-4">
+                <div class="group ">
+                    <div style="width: 40px; height: 40px;" id="child2"></div>
+                    <strong
+                        style="height: 27px; margin: 12px 0 6px; font-size: 20px; color: #2d2d33; font-weight: bold; line-height: 27px; text-align: center;">
+                        Accurate
+
+                    </strong>
+                    <p
+                        style="font-size: 16px; color: #2d2d33; opacity: 0.7; line-height: 22px; letter-spacing: 0.02em;">
+                        LightPDF provides reliable and high-quality PDF conversion services, ensuring your Word file
+                        looks the same as your original PDF. </p>
+                </div>
+            </div>
+            <div class="advantages-list justify-center mt-5 col-md-4">
+                <div class="group ">
+                    <div style="width: 40px; height: 40px;" id="child3"></div>
+                    <strong
+                        style="height: 27px; margin: 12px 0 6px; font-size: 20px; color: #2d2d33; font-weight: bold; line-height: 27px; text-align: center;">
+                        Versatile
+                    </strong>
+                    <p
+                        style="font-size: 16px; color: #2d2d33; opacity: 0.7; line-height: 22px; letter-spacing: 0.02em;">
+                        Our free online PDF to Word converter works on all devices, including Android, iOS, Windows, and
+                        Mac, making it easy to convert </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="row">
+            <div class="advantages-list justify-center mt-5 col-md-4">
+                <div class="group ">
+                    <div style="width: 40px; height: 40px;" id="child4"></div>
+                    <strong
+                        style="height: 27px; margin: 12px 0 6px; font-size: 20px; color: #2d2d33; font-weight: bold; line-height: 27px; text-align: center;">
+                        User-friendly
+
+                    </strong>
+                    <p
+                        style="font-size: 16px; color: #2d2d33; opacity: 0.7; line-height: 22px; letter-spacing: 0.02em;">
+                        We offer a clean interface with no distracting ads, so you can focus on your work and complete
+                        your PDF operations quickly and </p>
+                </div>
+            </div>
+            <div class="advantages-list justify-center mt-5 col-md-4">
+                <div class="group">
+                    <div style="width: 40px; height: 40px;" id="child5"></div>
+                    <strong
+                        style="height: 27px; margin: 12px 0 6px; font-size: 20px; color: #2d2d33; font-weight: bold; line-height: 27px; text-align: center;">
+                        Secure and Private
+
+                    </strong>
+                    <p
+                        style="font-size: 16px; color: #2d2d33; opacity: 0.7; line-height: 22px; letter-spacing: 0.02em;">
+                        Your security is our top priority. We guarantee 100% secure PDF to Word conversions and never
+                        share your files with anyone else.
+                </div>
+            </div>
+            <div class="advantages-list justify-center mt-5 col-md-4">
+                <div class="group ">
+                    <div style="width: 40px; height: 40px;" id="child6"></div>
+                    <strong
+                        style="height: 27px; margin: 12px 0 6px; font-size: 20px; color: #2d2d33; font-weight: bold; line-height: 27px; text-align: center;">
+                        Customer-oriented
+                    </strong>
+                    <p
+                        style="font-size: 16px; color: #2d2d33; opacity: 0.7; line-height: 22px; letter-spacing: 0.02em;">
+                        We pride ourselves on providing advanced and up-to-date services, with 24/7 customer support to
+                        ensure your satisfaction.
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+
+    <!-- How to convert a PDF to Word for Free -->
+
+    <div class="">
+        <div class="convert-steps flex flex-col items-center mb-4 md:mb-0 shadow">
+            <h2 class="text-center mb-4">How to convert a PDF to Word for Free</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="bg-FC4262 rounded-circle opacity-0.7 me-2  text-dark text-center px-2 py-1 spna01">1</span>
+                        <strong class="fw-semibold">
+                            Choose PDF files
+                        </strong>
+                    </div>
+                    <div class="text-center mt-2">Upload files to the online converter</div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="bg-FC4262 rounded-circle opacity-0.7 me-2  text-dark text-center px-2 py-1 spna01">2</span>
+                        <strong class="fw-semibold">
+                            Convert PDF to Word
+                        </strong>
+                    </div>
+                    <div class="text-center mt-2">Convert PDF to editable Word by clicking "Convert"</div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="bg-FC4262 rounded-circle opacity-0.7 me-2 text-dark text-center px-2 py-1 spna01">3</span>
+                        <strong class="fw-semibold">
+                            Download Word files
+                        </strong>
+                    </div>
+                    <div class="text-center mt-2">Click "Download" to get converted Docx files</div>
+                </div>
+              
+                
+            </div>
+            
+
+          
+           
+        </div>
+    </div>
+
+
+
+    <!-- Why Choose LightPDF ?
+ -->
+
+    <div class="container  Choose shadow mt-3 mb-3">
+        <table
+            class="border-1 overflow-hidden border-solid border-[#e7eaec] rounded-[10px] border-separate m-[0_24px] md:m-[auto] text-center border-spacing-0">
+            <tbody>
+                <tr>
+                    <th class="border-r-1 border-b-1"></th>
+                    <th class="border-r-1 border-b-1">
+                        <div class="mx-[auto]">
+                            LightPDF
+                        </div>
+                    </th>
+                    <th class="border-b-1">
+                        <div class="mx-[auto]">
+                            Similar Converters
+                        </div>
+                    </th>
+                </tr>
+                <tr class="custom-bg">
+                    <td class="border-b-1 border-r-1 ">OCR </td>
+                    <td class="border-r-1 border-b-1 ">
+                        <div class="flex items-center justify-center">
+                            <div class="bg-contain bg-contain01 ">
+                            </div>
+                            <div>Free</div>
+                        </div>
+                    </td>
+                    <td class="border-r-1 border-b-1 ">
+                        <div class="flex items-center justify-center">
+                            <!--    <div class="mr-[8px] w-[20px] h-[20px] bg-[url(/src/assets/images/functionPage/right.svg)] bg-center bg-no-repeat bg-contain">
+                        </div> -->
+                            <div class="mr-2 w-20 h-20"
+                                style="background-image: url('../main/icon-gren.svg'); background-position: center; background-repeat: no-repeat; background-size: contain;">
+                            </div>
+
+                            <div>Paid Service</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="border-r-1 border-b-1">Multi-Platform</td>
+                    <td class="border-r-1 border-b-1">
+                        <div
+                            class="mx-[auto] w-[20px] h-[20px] bg-[url(/src/assets/images/functionPage/right.svg)] bg-center bg-no-repeat bg-contain">
+                        </div>
+                    </td>
+                    <td class="border-b-1">
+                        <div
+                            class="mx-[auto] w-[20px] h-[20px] bg-[url(/src/assets/images/functionPage/wrong.svg)] bg-center bg-no-repeat bg-contain">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="border-r-1 border-b-1">Cloud Documents</td>
+                    <td class="border-r-1 border-b-1">
+                        <div
+                            class="mx-[auto] w-[20px] h-[20px] bg-[url(/src/assets/images/functionPage/right.svg)] bg-center bg-no-repeat bg-contain">
+                        </div>
+                    </td>
+                    <td class="border-b-1">
+                        <div
+                            class="mx-[auto] w-[20px] h-[20px] bg-[url(/src/assets/images/functionPage/wrong.svg)] bg-center bg-no-repeat bg-contain">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="border-r-1 border-b-1">Conversion Accuracy</td>
+                    <td class="border-r-1 border-b-1">≥90%</td>
+                    <td class="border-b-1">≤75%</td>
+                </tr>
+                
+
+
+            </tbody>
+        </table>
+        
+        <div class="mtt">
+
+
+            <button class="btny btny-01">
+                Convert PDF To Word <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+
+                </div>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- FAQ -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col mt-3" style="margin-top: 80%;">
+                <h1 class="text-center">FAQ</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="saq-main">
+                <div class="sqa">
+                    <div class="sqa-img d-flex  align-items-center">
+                        <img src="../main/faq.svg" alt="">
+                        <h3 class="ms-3 ">
+                            How to Convert PDF to Word without losing the format?
+                        </h3>
+                    </div>
+                    <p id="lef1">You can try LightPDF, it ensures that your converted Word file formatting remains the
+                        same as the original PDF.</p>
+                </div>
+                <div class="sqa">
+                    <div class="sqa-img d-flex align-items-center">
+                        <img src="../main/faq.svg" alt="">
+                        <h3 class="ms-3">
+                            Can I edit the converted Word document? </h3>
+                    </div>
+                    <p id="lef2">
+                        Yes, our PDF to Word converter supports OCR, whether you upload searchable PDFs or PDF scans,
+                        LightPDF can easily convert them into editable documents. </p>
+                </div>
+                <div class="sqa">
+                    <div class="sqa-img d-flex align-items-center">
+                        <img src="../main/faq.svg" alt="">
+                        <h3 class="ms-3">
+                            Can I edit the converted Word document? </h3>
+                    </div>
+                    <p id="lef3">
+                        LightPDF allows you to convert PDF to Docx without installing software or paying a penny. Upload
+                        the file from your device and you will get a converted file.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+        <button class="btny">
+            Convert PDF To Word <div class="arrow-wrapper">
+                <div class="arrow"></div>
+
+            </div>
+        </button>
+    </div>
+
+
+                             <!-- More Resources about PDF -->
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+    
+            <div class=" mb-5 mb-md-10 text-center">
+                <h2 class="font-semibold fs-4 fs-md-2 mx-3 mx-md-0 mb-4">
+                    More Resources about PDF
+                </h2>
+                <ul class="col-12 col-md-10 d-flex flex-column flex-md-row justify-content-between mx-auto">
+                    <li class="mb-3 col-md-4">
+                        <a class="text-dark text-decoration-none hover-text-primary" href="/pdf-word-converters-windows-mac.html">
+                            <img class="mb-3 w-100" src="https://cfcdn.apowersoft.info/astro/lightpdf/_astro/pdf-to-word-1.50ed7749.jpg" alt="PDF to Word Converters">
+                            <div class="font-medium fs-5 text-center mt-4">Best PDF to Word Converters for Windows and Mac</div>
+                        </a>
+                    </li>
+                    <li class="mb-3 col-md-4">
+                        <a class="text-dark text-decoration-none hover-text-primary" href="/copy-words-pdf.html">
+                            <img class="mb-3 w-100" src="https://cfcdn.apowersoft.info/astro/lightpdf/_astro/pdf-to-word-2.8ecbb461.jpg" alt="Copy Words from PDF">
+                            <div class="font-medium fs-5 text-center mt-4">How to Copy Words from PDF</div>
+                        </a>
+                    </li>
+                    <li class="mb-3 col-md-4">
+                        <a class="text-dark text-decoration-none hover-text-primary" href="/convert-pdf-docx.html">
+                            <img class="mb-3 w-100" src="https://cfcdn.apowersoft.info/astro/lightpdf/_astro/pdf-to-word-3.d9a7646c.jpg" alt="Convert PDF to Docx">
+                            <div class="font-medium fs-5 text-center mt-4">Best Solution to Convert PDF to Docx</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <!-- PDF Tools -->
+    <div class="convert-steps">
+        <div class="container ">
+            <h2 class="font-semibold  text-center mb-4 ">PDF Tools</h2>
+            <div class="row ">
+                <!-- toola 1  -->
+                <div class="Tools  mt-5 col-md-3 ">
+                    <div class="">
+                        <div class="group01 p-3  ">
+                            
+                            <a class="align-items-center text-decoration-none   p-3" href="pdf-to-word">
+                                <!-- <div class="w-25 me-2 bg-pdf-to-word"></div> -->
+                               
+                                <div class="d-flex">
+                                    <div class="pdf-to-ppt me-2"
+                                    style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                                </div>
+                                    <h4 class="mb-1">PDF to Word</h4>
+                                </div>
+                                    <p class="text-muted mb-0">Convert PDF to Word for free on your devices</p>
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 1 img -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <!-- <div class="pdf-to-ppt me-2" style="min-width: 25px; width: 25px; height: 25px;"></div> -->
+                                <span class="whitespace-nowrap">PDF to PPT</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 2 img -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFTools.svg); background-size: cover;  min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <span class="whitespace-nowrap">
+                                    PDF to Excel</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 3 img -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFTools.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <span class="whitespace-nowrap">
+                                    PDF to TXT</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 4 img -->
+
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFTools.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <span class="whitespace-nowrap">
+                                    PDF to PNG</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 5 img -->
+
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFTools.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <span class="whitespace-nowrap">
+                                    PDF to JPG</span>
+                            </a>
+                        </li>
+                    </div>
+
+                </div>
+                <!-- tools 2 -->
+                <div class="Tools  mt-5 col-md-3 ">
+
+                    <div class="">
+                        <div class="group01 p-3">
+
+                            <a class=" align-items-center text-decoration-none p-3" href="ocr">
+                                <!-- <div class="w-25 me-2 bg-ocr-pdf"></div> -->
+                                <div class="d-flex">
+                                    <div class="pdf-to-ppt me-2"
+                                    style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                                </div>
+                                    <h4 class="mb-1">OCR</h4>
+                                </div>
+
+                                    <p class="text-muted mb-0">Extract texts from your scanned PDFs and photos</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 1st img -->
+                    <div class="imgs d-flex">
+                        
+                        
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <!-- <div class="pdf-to-ppt me-2" style="min-width: 25px; width: 25px; height: 25px;"></div> -->
+                                <span class="whitespace-nowrap">
+                                    Word to PDF</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 2 img -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                        style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                    </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <!-- <div class="pdf-to-ppt me-2" style="min-width: 25px; width: 25px; height: 25px;"></div> -->
+                                <span class="whitespace-nowrap">
+
+                                    PPT to PDF</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 3 img -->
+
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                        style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                    </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <!-- <div class="pdf-to-ppt me-2" style="min-width: 25px; width: 25px; height: 25px;"></div> -->
+                                <span class="whitespace-nowrap">
+
+                                    Excel to PDF</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 4 img -->
+
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                        style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                    </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <!-- <div class="pdf-to-ppt me-2" style="min-width: 25px; width: 25px; height: 25px;"></div> -->
+                                <span class="whitespace-nowrap">
+                                    PNG to PDF</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 5 img -->
+
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                        style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                    </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <!-- <div class="pdf-to-ppt me-2" style="min-width: 25px; width: 25px; height: 25px;"></div> -->
+                                <span class="whitespace-nowrap">
+                                    JPG to PDF</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 6 img -->
+
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                        style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                    </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <!-- <div class="pdf-to-ppt me-2" style="min-width: 25px; width: 25px; height: 25px;"></div> -->
+                                <span class="whitespace-nowrap">
+                                    CAD to PDF</span>
+                            </a>
+                        </li>
+                    </div>
+                    <!-- 7 img -->
+
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                        style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                    </div>
+
+                        <li class="tools-item mb-3">
+                            <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                                <!-- <div class="pdf-to-ppt me-2" style="min-width: 25px; width: 25px; height: 25px;"></div> -->
+                                <span class="whitespace-nowrap">
+                                    EPUB to PDF</span>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+               <!-- tools 3 -->
+                <div class="Tools  mt-5 col-md-3 ">
+
+                    <div class="">
+                        <div class="group01 p-3">
+
+                            <a class=" align-items-center text-decoration-none p-3" href="pdf-to-word">
+                                <!-- <div class="w-25 me-2 bg-pdf-to-word"></div> -->
+                                <div class="d-flex">
+                                    <div class="pdf-to-ppt me-2"
+                                    style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                                </div>
+                                    <h4 class="mb-1 ">PDF to Word</h4>
+                                </div>
+                                    <p class="text-muted mb-0">Convert PDF to Word for free on your devices</p>
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 1 img  -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+                                Watermark PDF</span>
+                        </a>
+                    </li>
+                </div>
+                <!-- 2 img   -->
+                <div class="imgs d-flex">
+                    <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+
+
+                                Split PDF</span>
+                        </a>
+                    </li>
+                </div>
+                <!-- 3 img  -->
+                <div class="imgs d-flex">
+                    <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+
+
+                                Split PDF</span>
+                        </a>
+                    </li>
+                </div>
+                <!-- 4 img  -->
+                <div class="imgs d-flex">
+                    <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+
+                                Merge PDF</span>
+                        </a>
+                    </li>
+                </div>
+                <!-- 5 img   -->
+                <div class="imgs d-flex">
+                    <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+                                Rotate PDF</span>
+                        </a>
+                    </li>
+                </div>
+                <!-- 6 img  -->
+                <div class="imgs d-flex">
+                    <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+
+                                Annotate PDF</span>
+                        </a>
+                    </li>
+
+                </div>
+                   
+                </div>
+                <!-- tools 4 -->
+                <div class="Tools  mt-5 col-md-3 ">
+
+                    <div class="">
+                        <div class="group01 p-3">
+
+                            <a class=" align-items-center text-decoration-none p-3" href="pdf-to-word">
+                                <div class="d-flex">
+                                    <div class="pdf-to-ppt me-2"
+                                    style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                                </div>
+                                    
+                                    <h4 class="mb-1">PDF to Word</h4>
+                                </div>
+
+                                    <p class="text-muted mb-0">Convert PDF to Word for free on your devices</p>
+                            </a>
+
+                        </div>
+                    </div> 
+                    <!-- 1 img   -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+                                Protect PDF</span>
+                        </a>
+                    </li>
+                    </div>
+                    <!-- 2 img   -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+
+
+                                Unlock PDF</span>
+                        </a>
+                    </li>
+                    </div>
+                    <!-- 3 img  -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                        style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                    </div>
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+
+                                Compress PDF</span>
+                        </a>
+                    </li>
+                    </div>
+                    <!-- 4 img  -->
+                    <div class="imgs d-flex">
+                        <div class="pdf-to-ppt me-2"
+                            style="background-image: url(../main/PDFtoPPT.svg); background-size: cover; min-width: 25px; width: 25px; height: 25px;">
+                        </div>
+
+
+                    <li class="tools-item mb-3">
+                        <a href="/pdf-to-ppt" class="d-flex align-items-center text-decoration-none text-dark">
+                            <span class="whitespace-nowrap">
+                                AI for Docs</span>
+                        </a>
+                    </li>
+                    </div>
+                </div>
+
+                <!-- <div class="Tools d-flex "> -->
+
+                    <!-- Other items go here -->
+                <!-- </div> -->
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+   
+
+      <!-- fooet -->
+
+      <footer class="footer overflow-hidden">
+        <div class="container-md pt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Follow us</h5>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/Lightpdf/" target="_blank" class=" me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/LightPdf" target="_blank" class=" me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/channel/UCSl8Y7qVzF-7oIxhGvkkRdw" target="_blank" class=" me-2"><i class="fab fa-youtube"></i></a>
+                        <a href="https://discord.gg/aZwJB2kwaq" target="_blank" class=""><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Solutions</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/education-and-train" class="text-dark ">Education</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/faqs/lightpdf-editor-faq" class="text-dark">User Guide</a></li>
+                        <li><a href="/whats-new.html" class="text-dark">What's New</a></li>
+                        <li><a href="/resources" class="text-dark">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/about" class="text-dark">About Us</a></li>
+                        <li><a href="/contact" class="text-dark">Contact us</a></li>
+                        <li><a href="/newsletter" class="text-dark">Newsletters</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light py-4 ">
+            <div class="container-md">
+                <div class="row lastfooter">
+                    <div class="col-md-12  text-center ">
+                        <p class="mb-md-0">Copyright © 2024 LightPDF All Rights Reserved</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+ <!-- boostrap5 footer -->
+
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script>
+        document
+            .getElementById("search-icon")
+            .addEventListener("click", function () {
+                var searchInput = document.querySelector(".search-input");
+                searchInput.style.display =
+                    searchInput.style.display === "none" ? "block" : "none";
+            });
+
+        //  close
+        
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,449 @@
+/* .navbar{
+    background-color: darkcyan;
+} */
+
+.bg-\[url\(\/src\/assets\/images\/functionPage\/icon-pdf\.svg\)\] {
+    --un-url: url(../main/icon-pdf.edffb66a.svg);
+    background-image: var(--un-url);
+}
+
+.bg-pdf-icon {
+    background-image: url('../main/icon-pdf.edffb66a.svg');
+    width: 56px;
+    height: 68px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+
+}
+
+.filer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hide the original arrow icon */
+.dropdown-toggle::after {
+    display: none;
+}
+
+.searing {
+    justify-content: space-between;
+}
+
+ul li {
+    margin-right: 30px;
+    padding: 20px;
+}
+
+#logoo {
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    width: 200px;
+    margin-right: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+
+}
+
+.banner-wrapper {
+    background: url(../main/bg2.6013f087.svg) left top / 100% 596px no-repeat;
+    background-size: 100%;
+}
+
+/*  ya file ka defult text ko remove karna ka lea */
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    /* border: 1px solid #ccc; */
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* yaha tek */
+.flex-col {
+    flex-direction: column;
+}
+
+/* .advantages-list>div:nth-child(1)>div */
+#child1 {
+    background: url(../main/quick-hover.76e1df1b.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 80px; */
+}
+
+
+/* .advantages-list>div:nth-child(3)>div  */
+
+#child2 {
+    background: url(../main/lol2.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#child3 {
+    background: url(../main/lol3.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#child4 {
+    background: url(../main/lol4.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    fill: blue;
+}
+
+#child5 {
+    background: url(../main/lol5.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#child6 {
+    background: url(../main/lol6.svg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.group {
+    text-align: center;
+    max-width: 372px;
+    height: 284px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    padding:
+        26px;
+    margin-bottom: 42px;
+    transition: all 1s;
+    
+}
+
+
+
+.advantages-list> :hover.group {
+    border: 2px solid green;
+    transition-duration: 2s;
+}
+
+
+
+
+.group:hover #child1,
+.group:hover #child2,
+.group:hover #child3,
+.group:hover #child4,
+.group:hover #child5,
+.group:hover #child6 {
+    /* Apply styles to the image inside #child1 when .group is hovered */
+    /* filter: grayscale(100%); */
+    filter: hue-rotate(240deg);
+    /* Rotate hue to blue */
+
+    /* filter: grayscale(100%) sepia(100%) hue-rotate(240deg); Convert to blue */
+    /* Change the color or apply any other styles you want */
+}
+
+
+
+.convert-steps-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.convert-steps {
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.convert-steps {
+    background: rgba(109, 146, 240, .05) url(../main/convert-steps01.svg) center / auto 100% no-repeat;
+}
+
+h2 {
+    line-height: 45px;
+}
+
+.spna01{
+    --un-bg-opacity: 1;
+    background-color: rgba(252, 66, 98, var(--un-bg-opacity));
+    border-radius: 50%;
+    line-height: 50px;
+    min-width: 24px;
+    /* width: 20px; */
+    text-align: center;
+    min-height: 24px;
+    margin-right: 18px;
+}
+.btny{
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+    border: none;
+    background-color: #645bff;
+    padding: 6px;
+    border-radius: 20px;
+}
+.btny-01{
+    width: 24%;
+}
+.mtt {
+    margin-top: 80px;
+    padding: 50px;
+} 
+
+.btny {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btny-01 {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.arrow-wrapper {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+}
+
+
+/* . Why Choose LightPDF */
+
+td {
+    height: 52px;
+    font-size: 12px;
+    --un-text-opacity: 1;
+    color: rgba(95, 100, 115, var(--un-text-opacity));
+}
+
+td {
+    width: 369px;
+}
+
+.border-b-1,
+.border-b-1px {
+    border-bottom-width: 1px;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+th,
+td {
+    margin: 0;
+    width: 369px;
+    --un-border-opacity: 1;
+    border-color: rgba(231, 234, 236, var(--un-border-opacity));
+    border-style: solid;
+    --un-text-opacity: 1;
+    color: rgba(34, 42, 65, var(--un-text-opacity));
+}
+
+.border-b,
+.border-b-1,
+.border-b-1px {
+    border-bottom-width: 1px;
+}
+
+.Choose {
+    padding: 80px;
+}
+
+
+.mr-\[8px\],
+.mr-8px {
+    margin-right: 8px;
+}
+
+.custom-bg {
+    background-color: #f6f7f9;
+}
+
+
+
+
+/* FAQ */
+
+.sqa {
+    padding: 60px;
+}
+
+h3 {
+    margin-right: 40px;
+}
+
+#lef1,
+#lef2,
+#lef3 {
+    margin-left: 3rem;
+    width: 80%;
+}
+
+
+
+/* More Resources about PDF */
+.pdf-about{
+    margin-top: 200px;
+gap: 50px;
+}
+ul li img{
+    width: 300px;
+    object-fit: cover;
+}
+/* <!-- PDF Tools --> */
+
+ .Tools a{
+    /* background-color: #111; */ 
+    border-top-color: #645bff;
+ }
+ 
+
+  .group01{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 42px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    transition: all 1s;
+    
+  }
+
+
+  .Tools:hover .group01{
+    border: .5px solid green;
+    transition-duration: 1s;  }
+.tools-pdf{
+    background-color: #f8f9fe;
+}
+
+
+.group01 p{
+    font-size: 12px;
+}
+.group01 h4{
+    color: #111;
+}
+
+
+/* footer  */
+.footer .footer-main[data-v-5ee0879f] {
+    position: relative;
+    z-index: 1;
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+
+
+
+/* footer */
+.lastfooter{
+    padding: 80px;
+}
+.footer-social a {
+    font-size: 1.5rem; /* Adjust icon size */
+    text-decoration: none;
+}
+
+.footer-social .fab {
+    transition: color 0.3s;
+}
+
+.footer-social .fab:hover {
+    color: #ddd; /* Adjust hover color */
+}
+
+
+
+
+
